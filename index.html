@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<meta charset='uft-8' name='description' content='A great place to signup'>
+	<title>Analog Sea</title>
+	<link rel='stylesheet' type='text/css' href= 'assets/analogsea.css'>
+</head>
+<body>
+	<header>
+	<img src='assets/images/logo.png' class='logo'>
+	</header>
+	
+	<main>
+		<div class='form'>
+
+			<form class='signup-page'
+			action='/signup/'
+			method='post'>
+				<h1>Sign Up</h1>
+				
+					<label class="email" for='email' required>Email</label>
+					<input type='text' id='email' name='email' placeholder='foo@bar.com'>
+				
+				<div>
+					<label class="password" for='password' required>Password</label>
+					<input type='text' id='password' name='email' placeholder= '1234passw0rd'>
+				</div>
+
+				<div class='button'>
+				<button type='Signup'>Sign up</button>
+				</div>
+				<div class='pWord'>
+				<a href='/forgot-password/new' class ='pw'>Forgot password?</a>
+				</div>
+
+		</div>	
+		</form>
+
+		<div class='loggor'>
+		<h3>Already have and account?<a href ='/login' class='log'> Log in</a></h3>
+		</div>
+
+	</main>
+
+</body>
+</html>
